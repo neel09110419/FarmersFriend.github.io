@@ -1,0 +1,751 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.headeer{
+    height: 100%;
+    width: 100%;
+    background-image: url("./img/farmland.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute; 
+    
+
+}
+nav{
+    display: flex;
+    padding:2% 5%;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+nav img{
+    
+    width: 100px;
+    
+}
+.nav-links{
+    
+    flex:1;
+    text-align: right;
+    flex-basis: 100%;
+    
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 18px;
+    position: relative;
+    
+}
+.nav-links ul li a{
+    color: rgb(95, 94, 15);
+    text-decoration:none;
+    font-size: 120%;
+    
+    
+}
+.nav-links ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(219, 236, 124);
+    display: block;
+    margin: auto;
+    transition: 0.9s;
+}
+.nav-links ul li :hover::after{
+    width: 100%;
+}
+.text-box{
+    color: rgb(255, 255, 253);
+    position: absolute;
+    top:60%;
+    left: 6%;
+    text-align: center;
+    
+}
+.text-box h1{
+    font-size: 300%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.text-box h3{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.quote {
+    width: 50%;
+    padding-top: 180mm; 
+}
+
+.quo {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;   
+}
+p.roundd{
+    text-align: left;
+    margin-left:45px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(7, 10, 10);
+    border: rgb(95, 94, 15);
+    border-radius: 5px;
+    border-style: solid;
+    box-sizing: border-box;
+    padding:20px;
+    border-width: 5px;
+}
+
+p.roun{
+    text-align: right;
+    margin-right: -620px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(7, 10, 10);
+    border: rgb(95, 94, 15);
+    border-radius: 5px;
+    border-style: solid;
+    box-sizing: border-box;
+    margin-left: 25mm;
+    padding: 46px;
+    border-width: 5px;
+    
+}
+.abc {
+    margin-top: 5vh;
+    padding-left: 20vh;
+    font-size: xx-large;
+}
+
+
+.map iframe{
+    
+    margin-left: 100vh;
+}
+.us{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 35px;
+    
+}
+.us h2{
+    font-size: 25px;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+.us p{
+    font-size:20px ;
+}
+
+.icons{
+    font-size: 40px;
+    padding-top: 20px;
+    
+    color: rgb(69, 38, 119);
+}
+
+
+
+
+/*------- crop production-----*/
+
+.crop h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 8vh;
+    font-weight: 600;
+}
+div.gallery {
+   margin-top: 10vh;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    border: 3px solid #ccc;
+    float: left;
+    width: 310px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 3px solid #777;
+  }
+  
+  div.gallery img {
+    width: 40vh;
+    height: 30vh;
+    padding-left: 20px;
+   
+    padding-top: 10px;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  #cropping {
+      margin-top: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    
+    margin-left: 20vh;
+    margin-right: 20vh;
+  }
+  
+  #cropping td, #cropping th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  
+  #cropping tr:nth-child(even){
+      background-color: #f2f2f2;
+    }
+  
+  #cropping tr:hover {
+      background-color: #ddd;
+    }
+  
+  #cropping th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+
+  }
+
+/*------------ research n tips -----------*/
+.res{
+    margin-top: 95vh;
+}
+.res h1{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.res h3{
+    font-weight: 500;
+    font-size: 25px;
+}
+.res img{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
+.tips{
+    height: 95%;
+    width: 85%;
+    margin-left: 18vh;
+    background-image: url("./img/tip.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute; 
+    
+}
+div.modern{
+    margin-top: 830vh;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+div.datasc {
+    margin-top: 5vh;
+    
+    border: 4px solid #ccc;
+    float: left;
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 100px;
+    margin-bottom: 5vh;
+  }
+  
+  div.datasc:hover {
+    border: 3px solid #777;
+  }
+  
+  div.datasc img {
+    width: 65%;
+    height: 200px;
+    
+    margin-top: 20px;
+  }
+  
+  div.des{
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+  }
+ .des p{
+     padding-top: 10px;
+     text-align: center;
+     font-size: 15px;
+ }
+/*------data science ------*/
+.da{
+    margin-left: 10vh;
+}
+.sci h1{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.sci h2{
+    padding: 15px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.sci img{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.q{
+    margin-top: 5vh;
+    border: rgb(95, 94, 15);
+    border-radius: 5px;
+    border-style: solid;
+    box-sizing: border-box;
+    padding:20px;
+    border-width: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/*------ machine learning & AI -------*/
+.mac{
+        margin-left: 10vh;
+    }
+.mac h1{
+        padding: 10px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+.mac h3{
+        padding: 15px;
+        font-weight: 500;
+        font-size: 25px;
+    }
+.mac img{
+        padding: 10px;
+        margin-left: 20px;
+    }
+ 
+
+/*------------ about us ----------*/
+
+.headr{
+        min-height: 100vh;
+        width: 100%;
+        background-image: url("./img/Screenshot\ \(8\).png");
+        background-position: center;
+        background-size: cover;
+        position: relative;        
+        
+        
+    }
+.headr nav{
+display: flex;
+padding: 1% 5%;
+justify-content: space-between;
+align-items: center;
+background: rgb(255, 255, 255);
+box-sizing: border-box;
+    
+
+}
+.headr nav img{
+
+width: 100px;
+
+
+}
+.headr nav-links{
+
+    flex:1;
+text-align: right;
+
+}
+.headr nav-links ul li{
+    list-style: none;
+    display: inline-block;
+
+    position: relative;
+    
+}
+.headr nav-links ul li a{
+color: rgb(95, 94, 15);
+text-decoration:none;
+font-size: 103%;
+
+
+}
+.headr nav-links ul li ::after{
+content: '';
+width: 0%;
+height: 2px;
+background: rgb(214, 248, 146);
+display: block;
+margin: auto;
+transition: 0.9s;
+}
+
+.headr nav-links ul li :hover::after{
+width: 100%;
+}
+
+
+.about h1 {
+
+    font-size: 50px;
+    font-weight: 450;
+    text-align: center;
+    
+    
+}
+.about h2 {
+    margin-top: 60px;
+
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    
+    
+}
+
+.motive {
+    width: 50%;
+    padding-top: 5mm;   
+}
+.mot h1{
+    margin-left: 500px;
+}
+p.moundd{
+    text-align: center;
+    margin-left:80px;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(7, 10, 10);
+    border: rgb(95, 94, 15);
+    border-radius: 5px;
+    border-style: solid;
+    box-sizing: border-box;
+    padding:38px;
+    border-width: 5px;
+    margin-right: -160mm;
+    
+}
+
+
+/*------------ form ----------*/
+
+
+.headrr nav{
+display: flex;
+padding: 1% 5%;
+justify-content: space-between;
+align-items: center;
+background: rgb(255, 255, 255);
+box-sizing: border-box;
+
+
+}
+.headrr nav img{
+
+width: 100px;
+
+
+}
+.headrr nav-links{
+
+flex:1;
+text-align: right;
+
+}
+.headrr nav-links ul li{
+list-style: none;
+display: inline-block;
+
+position: relative;
+
+}
+.headrr nav-links ul li a{
+color: rgb(95, 94, 15);
+text-decoration:none;
+font-size: 103%;
+
+
+}
+.headrr nav-links ul li ::after{
+content: '';
+width: 0%;
+height: 2px;
+background: rgb(214, 248, 146);
+display: block;
+margin: auto;
+transition: 0.9s;
+}
+
+.headrr nav-links ul li :hover::after{
+width: 100%;
+}
+
+.grav{
+    border: 3px solid rgb(95, 94, 15);
+    
+    border-radius: 5px;
+    margin-right: 400px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    
+}
+.grav h1{
+    
+    font-size: 40px;
+    font-weight: 600;
+    background: rgb(163, 88, 58);
+    box-sizing: border-box;
+
+}
+.comp-form{
+    margin-bottom: 5px;
+    
+    padding: 60px ;
+    
+}
+.comp-form input, .comp-form textarea {
+    width: 100%;
+    padding:15px;
+    margin: 15px 10px;
+    box-sizing: border-box;
+    outline: none;
+    background: #f0f0f0;
+    
+}
+
+.imag p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align:right ;
+    margin-right: 20px;
+}
+
+.bttn{
+    display: inline-block;
+    border: 2px solid rgb(95, 94, 15) ;
+    background: rgb(202, 202, 197);
+    color: rgb(95, 94, 15);
+    position: relative;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 15px 35px;
+}
+.bttn :hover{
+    
+   
+    color: darkgrey;
+    transition: 0.1s;
+    
+}
+
+/*----- policy----*/
+.gov h1{
+    padding-left: 5vh;
+    font-size: 30px;
+}
+.gov ul{
+    padding-left: 10vh;
+    margin-bottom: 10vh;
+}
+
+#policiess {
+    
+    margin-top: 10vh;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-bottom: 10vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+}
+
+#policiess td, #policiess th {
+    
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px;
+  
+}
+#policiess th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+.adimg img{
+padding-left: 15vh;
+
+}
+.adimg{
+    background-color: rgb(194, 190, 190);
+    box-sizing: content-box;
+}
+
+/*--------- crop ----------*/
+
+.barl{
+    margin-top: 10px;
+    height:350px;
+    width: 98%;
+    background-image: url("./img/Barley.jpg");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.barl h1{
+
+    padding-top: 25vh;
+    text-align: center;
+    color: rgb(250, 249, 249);
+    font-size: 50px;
+}
+.bar p{
+    display: list-item;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+
+}
+.bar img{
+    margin-top: 10px;
+    margin-left: 50vh;
+    margin-bottom: 20px;
+
+}
+/*-----*/
+.maiz{
+    margin-top: 10px;
+    height:350px;
+    width: 98%;
+    background-image: url("./img/Maize\ 12.jpg");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.maiz h1{
+
+    padding-top: 25vh;
+    text-align: center;
+    color: rgb(250, 249, 249);
+    font-size: 50px;
+}
+/*-------*/
+.whea{
+    margin-top: 10px;
+    height:60vh;
+    width: 95%;
+    background-image: url("./img/wheattt.jpg");
+    
+    margin-left: 35px;
+    margin-right: 15px;
+}
+.whea h1{
+
+    padding-top: 20vh;
+    text-align: center;
+    color: rgb(250, 249, 249);
+    font-size: 50px;
+}
+/*-----*/
+.padd{
+    margin-top: 10px;
+    height:50vh;
+    width: 98%;
+    background-image: url("./img/paddy-hands-men-with-paddy-1179444.jpg");
+    
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.padd h1{
+
+    padding-top: 20vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+/*-----*/
+.pul{
+    margin-top: 10px;
+    height:60vh;
+    width: 98%;
+    background-image: url("./img/puls.jpg");
+    
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.pul h1{
+
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+/*-----*/
+.pot{
+    margin-top: 10px;
+    height:50vh;
+    width: 86%;
+    background-image: url("./img/potatoes-1594205506.jpg");
+    margin-left: 15vh;
+    
+}
+.pot h1{
+
+    padding-top: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+/*-----*/
+.mill{
+    margin-top: 10px;
+    height:40vh;
+    width: 90%;
+    background-image: url("./img/milletk_740798080.jpg");
+    margin-left: 10vh;
+    
+}
+.mill h1{
+
+    padding-top: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+/*-----*/
+.on{
+    margin-top: 10px;
+    height:40vh;
+    width: 88%;
+    background-image: url("./img/onionimg.webp");
+    margin-left: 12vh;
+    
+}
+.on h1{
+
+    padding-top: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
